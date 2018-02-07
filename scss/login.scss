@@ -1,0 +1,889 @@
+ @charset "utf-8";html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,tt,var,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,legend {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-style: normal;
+	text-align:left;
+}
+ 
+html,
+body {
+	text-align: center;
+}
+body {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/prodbtmback_2.png");
+	font-family: verdana, SimSun, Helvetica, sans-serif;
+	color: #333;
+	font-size: 12px;
+}
+
+ 
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.fastlogin_new_party {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	width: 360px;
+	padding: 16px 30px 16px 10px;
+	background: #f6f6f6;
+}
+
+.fastlogin_new_party .three_party {
+	float: left;
+}
+
+.fastlogin_new_party .three_party a {
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 1px solid #e0e0e0;
+}
+
+.fastlogin_new_party .three_party a i {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.fastlogin_new_party .three_party a i.login_icon_qq {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -23px -58px no-repeat;
+}
+
+.fastlogin_new_party .three_party a i.login_icon_wx {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -5px -42px no-repeat;
+}
+
+.fastlogin_new_party .three_party a i.login_icon_pay {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -5px -76px no-repeat;
+}
+
+.fastlogin_new_party .three_party a i.login_icon_wb {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -53px -30px no-repeat;
+}
+
+.fastlogin_new_party .three_party a i.login_icon_kx {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -23px -30px no-repeat;
+}
+
+.fastlogin_new_party .three_party a.noborder {
+	border: none;
+}
+
+.fastlogin_new_party .goregister {
+	float: right;
+	color: #666;
+}
+
+.fastlogin_new_party .goregister:hover {
+	color: #666;
+}
+
+.fastlogin_new_party .goregister i {
+	display: inline-block;
+	width: 16px;
+	height: 17px;
+	vertical-align: middle;
+	margin: -3px 5px 0 0;
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -76px -30px no-repeat;
+}
+
+.new_fastlogin_code .scan_code {
+	height: 200px;
+	margin: 10px auto 3px;
+	text-align: center;
+}
+
+.new_fastlogin_code .scan_code .havecode {
+	position: relative;
+	width: 360px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.new_fastlogin_code .scan_code .havecode .code {
+	position: absolute;
+	left: 89px;
+	top: 0;
+	width: 180px;
+	height: 180px;
+}
+
+.new_fastlogin_code .scan_code .havecode .prompt {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 155px;
+}
+
+.new_fastlogin_code .scan_word {
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+
+.new_fastlogin_code .scan_down {
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+}
+
+.new_fastlogin_code .scan_down .down {
+	width: 200px;
+	margin: 10px auto;
+	text-align: center;
+	cursor: pointer;
+}
+
+.new_fastlogin_code .downimg {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -52px -58px no-repeat;
+}
+
+.new_fastlogin_code .scan_down .down_code {
+	display: none;
+	z-index: 3;
+	position: absolute;
+	left: 122px;
+	top: 30px;
+	width: 158px;
+	height: 140px;
+	padding-top: 15px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #f6f6f6;
+}
+
+.new_fastlogin_code .scan_down .down_code img {
+	width: 126px;
+	height: 126px;
+}
+
+.new_fastlogin_code .scan_down .down_code i {
+	display: inline-block;
+	position: absolute;
+	left: 70px;
+	top: -15px;
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+}
+
+.new_fastlogin_code .scan_down .down_code i.down_after {
+	z-index: 3;
+	border-bottom: 8px solid #fff;
+}
+
+.new_fastlogin_code .scan_down .down_code i.down_before {
+	z-index: 2;
+	top: -16px;
+	border-bottom: 8px solid #f6f6f6;
+}
+
+.new_fastlogin_code .codesuccess {
+	text-align: center;
+}
+
+.new_fastlogin_code .codesuccess .success {
+	margin-top: 10px;
+}
+
+.new_fastlogin_code .codesuccess .codesuc {
+	margin: 30px auto 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+}
+
+.new_fastlogin_code .codesuccess .suc_tishi {
+	text-align: center;
+	font-size: 14px;
+	color: #999;
+}
+
+.new_fastlogin_code .codefail {
+	position: relative;
+	text-align: center;
+}
+
+.new_fastlogin_code .codefail img {
+	width: 180px;
+	height: 180px;
+}
+
+.new_fastlogin_code .codefail .failure {
+	position: absolute;
+	left: 109px;
+	top: 0;
+	width: 180px;
+	height: 180px;
+	color: #fff;
+	background: #000;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.new_fastlogin_code .codefail .failure .fail {
+	margin: 55px 0 18px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.new_fastlogin_code .codefail .failure .coderefresh {
+	cursor: pointer;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	background: #d70057;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+}
+
+body {
+	background: #fff;
+	font-family: Arial, SimSun, Helvetica, sans-serif;
+	color: #333;
+	font-size: 12px;
+}
+
+.login_txt,
+.login_txt_2,
+.login_txt_3 {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+}
+
+.loginwarpper {
+	width: 1200px;
+	height: 560px;
+	margin: 0 auto;
+}
+
+.miniheader {
+	width: 1200px;
+	height: 100pxpx;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.miniheaderLeft {
+	float: left;
+}
+
+.miniheaderRight {
+	float: right;
+	margin: 35px 10px 0 0;
+}
+
+.miniheader .miniheaderRight a:link,
+.miniheader .miniheaderRight a:visited {
+	color: #666;
+}
+
+.miniheader .miniheaderRight a:hover {
+	color: #d95854;
+}
+
+.miniheaderRight span {
+	margin: 0 5px;
+	color: #666;
+}
+
+.miniheaderRight_1 {
+	margin-left: 30px;
+}
+
+.minifooter {
+	height: 28px;
+	margin: 80px auto 10px;
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.login {
+	width: 100%;
+	color: #676767;
+	font-size: 14px;
+	float: left;
+	display: inline;
+	zoom: 1;
+	background-position: 55px 20px;
+}
+
+.loginRight {
+	float: right;
+	position: relative;
+	width: 340px;
+	height: 520px;
+	margin: 20px 0 0 0;
+	padding: 0 30px;
+	background: #fff;
+}
+
+.login_txt input,
+.login_txt_2 input,
+.login_txt_3 input {
+	height: 46px;
+	width: 327px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: #fff;
+	line-height: 46px;
+	padding-left: 10px;
+	border: none;
+}
+
+.login_btn,
+.login_btn_hover,
+.login_btn_down {
+	width: 164px;
+	height: 50px;
+	border: none;
+	cursor: pointer;
+	margin: 20px 0 20px 0;
+}
+
+#mobilecheck_2 span {
+	position: absolute;
+	right: -195px;
+	top: 5px;
+	width: 185px;
+	color: #626c76;
+}
+
+.loginline {
+	height: 2px;
+	width: 306px;
+	background: #dbdbdb;
+	overflow: hidden;
+}
+
+.loginRight_btn a {
+	margin-right: 5px;
+}
+
+.loginRight p.loginRight_1,
+.loginRight p.loginRight_2,
+.loginRightSecond p.loginRight_1,
+.loginRightSecond p.loginRight_2 {
+	color: #999;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.loginRight .loginRight_1 a,
+.loginRightSecond .loginRight_1 a {
+	text-decoration: underline;
+	margin-left: 10px;
+}
+
+.loginRightSecond {
+	float: right;
+	width: 340px;
+	height: 520px;
+	margin: 20px 0 0 0;
+	padding: 0 30px;
+	display: inline;
+	position: relative;
+	font-family: 'Microsoft Yahei';
+	background: #fff;
+}
+
+.centerTopLeft {
+	float: left;
+	width: 490px;
+	height: 588px;
+}
+
+#pub_slideplay {
+	float: left;
+}
+
+.loginRightSecond p.loginRight_3 {
+	color: #999;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.loginRight_3 input {
+	vertical-align: middle;
+	_margin-top: -3px;
+}
+
+.loginRightSecond .loginRight_3 a {
+	color: #999;
+	margin-left: 250px;
+}
+
+.login_btn_2,
+.login_btn_2_hover,
+.login_btn_2_down {
+	width: 338px;
+	height: 50px;
+	background: #d70057;
+	border: none;
+	font-family: 'Microsoft Yahei';
+	cursor: pointer;
+	margin: 0 0 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+ 
+
+.login p.school_check_P {
+	font-size: 12px;
+	color: #999;
+}
+
+.login p.school_check_P a {
+	color: #d70057;
+}
+
+#suggest,
+#suggest2 {
+	width: 291px;
+	max-height: 290px;
+	_height: 290px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10000;
+	margin-top: 40px;
+	margin-left: 7px;
+}
+
+ 
+
+.logintab a {
+	margin-right: 5px;
+}
+
+.logintab span {
+	color: #676767;
+	font-size: 14px;
+	vertical-align: bottom;
+}
+
+#checkEmail,
+#checkUser {
+	color: #00F;
+	font-size: 12px;
+	text-decoration: underline;
+	float: right;
+	vertical-align: bottom;
+}
+
+.new_login {
+	padding: 10px 0 20px 0;
+	width: 346px;
+	border-right: 1px solid #d1d1d1;
+	float: left;
+}
+
+.new_login .z_logQQ,
+.new_login .z_logWeibo,
+.new_login .z_logKaix,
+.new_login .z_log139,
+.new_login .z_logAlipay {
+	padding-left: 20px;
+	color: #336797;
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/login/logico.png") no-repeat 0 0;
+	float: left;
+	margin-top: 3px;
+	height: 17px;
+	line-height: 17px;
+}
+
+.new_login .z_logQQ {
+	background-position: 0 -4px;
+}
+
+.new_login .z_logWeibo {
+	background-position: 0 -76px;
+}
+
+.new_login .z_logKaix {
+	background-position: 0 -52px;
+}
+
+.new_login .z_log139 {
+	background-position: 0 -28px;
+}
+
+.new_login .z_logAlipay {
+	padding: 0;
+	width: 114px;
+	height: 25px;
+	background-position: 0 -103px;
+	margin: 0;
+}
+
+.new_login .z_slic {
+	float: left;
+	color: #dbdbdb;
+	height: 17px;
+	line-height: 17px;
+	padding: 0 5px;
+	margin-top: 3px;
+}
+
+.new_login .z_exLog {
+	margin-left: 14px;
+}
+
+.new_login p {
+	float: left;
+	display: inline;
+}
+
+.new_login p.z_exLog {
+	margin-left: 40px;
+	color: #999;
+	width: 255px;
+	height: 20px;
+}
+
+.new_login a.z_logWeibo {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/login/sinaweibo.png") no-repeat;
+	width: 77px;
+	height: 24px;
+}
+
+.new_login a.z_logAlipay {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/login/zhifubao.png") no-repeat;
+	width: 81px;
+	height: 22px;
+	display: block;
+	margin-top: 3px;
+}
+
+.logintab {
+	width: 228px;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+
+#checkEmail,
+#checkUser {
+	color: #00F;
+	font-size: 12px;
+	text-decoration: underline;
+	float: right;
+	vertical-align: bottom;
+}
+
+ 
+ 
+
+ 
+
+#loginform .z_logQQ,
+#loginform .z_logWeibo,
+#loginform .z_logKaix,
+#loginform .z_log139,
+#loginform .z_logAlipay {
+	padding-left: 20px;
+	color: #336797;
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/login/logico.png") no-repeat 0 0;
+	float: left;
+	margin-top: 3px;
+	height: 17px;
+	line-height: 17px;
+}
+
+#loginform .z_logQQ {
+	background-position: 0 -4px;
+}
+
+#loginform .z_logWeibo {
+	background-position: 0 -76px;
+}
+
+#loginform .z_logKaix {
+	background-position: 0 -52px;
+}
+
+#loginform .z_log139 {
+	background-position: 0 -28px;
+}
+
+#loginform .z_logAlipay {
+	padding: 0;
+	width: 114px;
+	height: 25px;
+	background-position: 0 -103px;
+	margin: 0;
+}
+
+#loginform .z_slic {
+	float: left;
+	color: #dbdbdb;
+	height: 17px;
+	line-height: 17px;
+	padding: 0 5px;
+	margin-top: 3px;
+}
+
+#loginform .z_exLog {
+	margin-left: 14px;
+}
+
+ 
+.miniheader_right {
+	float: right;
+	height: 100px;
+	line-height: 100px;
+	font-size: 14px;
+	font-family: 'Microsoft Yahei';
+	color: #666;
+}
+
+.miniheader_right .right_span {
+	margin-left: 60px;
+}
+
+.miniheader_right .right_span i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 5px;
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -76px -60px no-repeat;
+}
+
+.login_new_bg {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+	height: 560px;
+	overflow: hidden;
+}
+
+.login_new_bg img {
+	position: absolute;
+	left: 50%;
+	margin-left: -1000px;
+}
+
+.login_new_tabhead {
+	width: 340px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Microsoft Yahei';
+	color: #333;
+}
+
+.login_new_tabhead span {
+	display: inline-block;
+	width: 166px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.login_new_tabhead span.borderleft {
+	border-left: 1px solid #e0e0e0;
+}
+
+.login_new_tabhead span.active {
+	color: #d70057;
+}
+
+.login_new_party {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	width: 360px;
+	padding: 16px 30px 16px 10px;
+	background: #f6f6f6;
+}
+
+.login_new_party .three_party {
+	float: left;
+}
+
+.login_new_party .three_party a {
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 1px solid #e0e0e0;
+}
+
+.login_new_party .three_party a i {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.login_new_party .three_party a i.login_icon_qq {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -23px -58px no-repeat;
+}
+
+.login_new_party .three_party a i.login_icon_wx {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -5px -42px no-repeat;
+}
+
+.login_new_party .three_party a i.login_icon_pay {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -5px -76px no-repeat;
+}
+
+.login_new_party .three_party a i.login_icon_wb {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -53px -30px no-repeat;
+}
+
+.login_new_party .three_party a i.login_icon_kx {
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -23px -30px no-repeat;
+}
+
+.login_new_party .three_party a.noborder {
+	border: none;
+}
+
+.login_new_party .goregister {
+	float: right;
+	color: #666;
+}
+
+.login_new_party .goregister:hover {
+	color: #666;
+}
+
+.login_new_party .goregister i {
+	display: inline-block;
+	width: 16px;
+	height: 17px;
+	vertical-align: middle;
+	margin: -3px 5px 0 0;
+	background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -76px -30px no-repeat;
+}
+
+ 
+.loginbody{
+	width:340px;
+	height:245px;
+	
+}
+
+
+.loginbody input{
+	height: 48px;
+    width: 328px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    background: #fff;
+    line-height: 46px;
+    padding-left: 10px;
+    border: none;
+    border: 1px solid #e0e0e0;
+    margin-bottom:30px;
+}
+.loginbody button{
+    width: 338px;
+    height: 50px;
+    background: #d70057;
+    border: none;
+    font-family: 'Microsoft Yahei';
+    cursor: pointer;
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logowe{
+	width:340px;
+	height:245px;
+	position: relative;
+}
+.logowe .havecode{
+	position: relative;
+}
+.logowe .havecode img:nth-of-type(1){
+    top:20px;
+    left:80px; 
+	width:180px;
+	height:180px;
+	position: absolute;
+}
+.logowe .havecode img:nth-of-type(2){
+    top:20px;
+    right:0;
+	width:150px;
+	height:180px;
+	position: absolute;
+	opacity:0;
+}
+.logowe .scan_word{
+	bottom:0px;
+	left:88px;
+	position: absolute;
+}
+#usernamep , #passwordu{
+    line-height:30px;
+	display: block;
+	color:#d00;
+	font-size:14px;
+	position: absolute;
+	top:213px;
+	left:60px;
+}
+#usernamep {
+	top:130px;
+}
+.p_reg_note {
+    display:none;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin: -22px 0px 0 5px;
+    background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -76px 0 no-repeat;
+}
+
+p.loginRight_3 {
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+ 

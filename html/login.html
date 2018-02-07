@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<style type="text/css">
+
+	a{
+		position: relative;
+		}</style>
+</head>
+<body>
+<!-- 头部 -->
+	<div class="miniheader">
+       <div class="miniheaderLeft">
+         <a href="/">
+           <img src="http://0.js.al.okbuycdn.com/resources/images/v6/login/login_new_logo.png" alt="okbuy">
+         </a>
+      </div>
+      <div class="miniheader_right">
+        <span class="right_span">
+            <i></i>天天低价
+        </span>
+        <span class="right_span">
+            <i></i>正品保障
+        </span>
+        <span class="right_span">
+            <i></i>15天退换货
+        </span>
+        <span class="right_span">
+            <i></i>评价晒单有礼
+        </span>
+      </div>
+   </div>
+<!--背景图片  -->
+   <a class="login_new_bg" target="_blank" href="http://www.okbuy.com/sport">
+	  <img src="http://i.okaybuy.cn/static/ea64b9409002b33fd7a24306fadbfa82.jpg" width="2000" height="560" border="0">
+   </a>
+<!-- 登录框 -->
+<div class="loginwarpper">
+	<div class="login" style="background-image: none;">       
+		<div class="loginRightSecond">
+			<!-- tab切换 -->
+			<div class="login_new_tabhead">
+				<span class="account">账号登录</span>
+				<span class="borderleft">扫码登录</span>
+			</div>
+			<!-- 账号登陆 -->
+			 
+			<div class="loginbody" style="display: block">
+				<input title="" placeholder="验证手机/邮箱/用户名" value="" class="valid" inptype="oktxt" id="username" name="username" type="text">
+				<i class="p_reg_note" id="mobilen"></i>
+				<span id="usernamep"> </span>
+				<input title="" placeholder="密码" value="" class="valid" inptype="oktxt" id="password" name="password" type="password">
+				<i class="p_reg_note" id="coden"></i>
+				<span id="passwordu"> </span>
+				<button id="btn">登录</button>
+			</div>
+            <!-- 微信登录 -->
+            <div class="logowe" style="display: none">
+				<div class="havecode">
+					<img class="code" src="http://0.js.al.okbuycdn.com/resources/images/v6/login/login_new_ewm.png" alt="">
+					<img class="prompt" src="http://0.js.al.okbuycdn.com/resources/images/v6/login/login_new_prompt.jpg" alt="">
+				</div>
+				<div class="scan_word">请使用好乐买APP扫码登录</div>
+            </div>
+
+            <p class="loginRight_3"><a href="/member/forgetpwd">忘记密码？</a></p>
+
+			<!-- 各种登陆 -->
+			<div class="login_new_party">
+				<div class="three_party">
+					<a title="QQ登录" href="/third_party/login/newqq/API/index.php"><i class="login_icon_qq"></i></a>
+					<a title="微信登录" href="/third_party/login/wechat/login.php?jumpurl="><i class="login_icon_wx"></i></a>
+					<a title="支付宝登录" href="/third_party/login/alipay_login/auth_authorize.php"><i class="login_icon_pay"></i></a>
+					<a title="微博登录" href="/third_party/login/sinaweibo?jumpurl="><i class="login_icon_wb"></i></a>
+					<a title="开心网登录" href="http://www.kaixin001.com/login/connect.php?appkey=93227016320896f5b761ee46fd6d5f2f&amp;re=/third_party/login/kaixin/login.php&amp;t=4" class="noborder"><i class="login_icon_kx"></i></a>
+				</div>
+				<a class="goregister" href="/members/register">
+					<i></i>注册有惊喜
+				</a>
+			</div>
+		</div>
+
+        <div class="OB_clearB"></div>
+
+    </div>
+</div>
+<div class="minifooter">Copyright © 2007-2018 OkBuy.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天津好乐买信息技术有限公司&nbsp;&nbsp;津B2-20140020&nbsp;&nbsp;京公网安备&nbsp;110105006859</div>
+<script type="text/javascript" src = "../js/require.js" async = "true" defer data-main = "../js/main"></script>
+ 
+</body>
+</html>

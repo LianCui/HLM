@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+    background: #fff;
+    font-family: Arial,SimSun,Helvetica,sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+a{
+    color: #d70057;
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+li{
+	list-style:none;
+}
+i{
+	font-style: normal;
+}
+.miniheader {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.miniheaderLeft {
+    float: left;
+}
+.miniheader_right {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei';
+    color: #666;
+}
+.miniheader_right .right_span {
+    margin-left: 60px;
+}
+.miniheader_right .right_span i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -76px -60px no-repeat;
+}
+.login_new_bg {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+}
+#loginwarpper {
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto;
+}
+.login {
+    width: 100%;
+    color: #676767;
+    font-size: 14px;
+    float: left;
+    display: inline;
+    zoom: 1;
+    background-position: 55px 20px;
+}
+.loginRight {
+    float: right;
+    position: relative;
+    width: 340px;
+    height: 520px;
+    margin: 20px 0 0 0;
+    padding: 0 30px;
+    background: #fff;
+}
+.register_new_title {
+    overflow: hidden;
+    margin: 30px 0;
+    font-family: 'Microsoft Yahei';
+}
+.register_new_title .reg {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+.register_new_title .reglogin {
+    float: right;
+    color: #d70057;
+}
+#mobileoremail {
+    width: 346px;
+}
+#mobileoremail #mobile , #mobileoremail #code {
+    width: 334px;
+    height: 51px;
+    border:1px solid #eee;
+    padding-left:10px;
+}
+#mobileoremail span{
+    display:block;
+    height:30px;
+    line-height:30px;
+    width:90%;  
+    padding-left:25px;
+}
+.p_reg_note {
+    display:none;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin: 8px 0px 0 5px;
+    background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -76px 0 no-repeat;
+}
+#Vcode{
+    float:left;
+    width: 162px;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid #eee;
+}
+#getcode_img {
+    float: right;
+    margin: 7px 1px 0 39px;
+    display: inline;
+    cursor: pointer;
+
+}
+#mobileoremail #note_code{
+    float:left;
+    top:305px;
+}
+#mobileoremail #codev{
+    float:left;
+}
+.register_btn {
+    width: 338px;
+    height: 50px;
+    background: #d70057;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    color: #fff;
+}
+ #mobileoremail p.school_check_P {
+    text-align:center;
+    font-size: 12px;
+    color: #999;
+}
